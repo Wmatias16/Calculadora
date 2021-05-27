@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+tbody{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-calculadora{
+    width: 300px;
+    height: 385px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+.resultado{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.opciones{
+    width: 100%;
+    height: 100%;
+}
+
+.opciones #numeros{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-right: 1px solid black;
+}
+
+td{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 2.1;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.opciones #operadores{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
