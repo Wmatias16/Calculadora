@@ -14,10 +14,10 @@ tbody{
 
 }
 
-.resultado{
+#resultado{
     width: 100%;
     height: 100px;
-    background: black;
+    border:1px solid black;
 }
 
 .opciones{
@@ -42,6 +42,10 @@ td{
     margin: 2px;
     font-size: 25px;
     cursor: pointer;
+}
+
+td:hover{
+    background-color: grey;
 }
 
 .opciones #operadores{
